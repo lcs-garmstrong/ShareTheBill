@@ -258,17 +258,8 @@ struct CalculationView: View {
             })
             .buttonStyle(.bordered)
             
-            Group {
-                
-                Text("History")
-                    .font(.headline.smallCaps())
-                    .padding()
-                
-                List(history.reversed()) { somePriorResult in
-                    ResultView(priorResult: somePriorResult)
-                }
-
-            }
+            Spacer()
+            
         }
         .padding(.top, 10)
         .navigationTitle("Share the Bill")

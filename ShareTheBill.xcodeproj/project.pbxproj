@@ -13,6 +13,7 @@
 		81612727298BD22200BEA301 /* CalculationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81612726298BD22200BEA301 /* CalculationView.swift */; };
 		81612729298BF20F00BEA301 /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81612728298BF20F00BEA301 /* Result.swift */; };
 		8161272B298BF33600BEA301 /* ResultView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8161272A298BF33600BEA301 /* ResultView.swift */; };
+		97059444298C4EA800DFE4AD /* HistoryVIew.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97059443298C4EA800DFE4AD /* HistoryVIew.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +24,7 @@
 		81612726298BD22200BEA301 /* CalculationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculationView.swift; sourceTree = "<group>"; };
 		81612728298BF20F00BEA301 /* Result.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Result.swift; sourceTree = "<group>"; };
 		8161272A298BF33600BEA301 /* ResultView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultView.swift; sourceTree = "<group>"; };
+		97059443298C4EA800DFE4AD /* HistoryVIew.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryVIew.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +87,7 @@
 			children = (
 				81612726298BD22200BEA301 /* CalculationView.swift */,
 				8161272A298BF33600BEA301 /* ResultView.swift */,
+				97059443298C4EA800DFE4AD /* HistoryVIew.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -159,6 +162,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				97059444298C4EA800DFE4AD /* HistoryVIew.swift in Sources */,
 				81612729298BF20F00BEA301 /* Result.swift in Sources */,
 				8161272B298BF33600BEA301 /* ResultView.swift in Sources */,
 				81612727298BD22200BEA301 /* CalculationView.swift in Sources */,
