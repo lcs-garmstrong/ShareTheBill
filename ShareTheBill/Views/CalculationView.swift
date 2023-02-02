@@ -24,7 +24,7 @@ struct CalculationView: View {
     @State var peopleCount = 2
     
     // Stores the history of tip calculations
-    @State var history: [Result] = []   // Begins as empty list
+    @Binding var history: [Result]
     
     // MARK: Computed properties
     
@@ -278,7 +278,7 @@ struct CalculationView: View {
 struct CalculationView_Previews: PreviewProvider {
     static var previews: some View {
         NavigationView {
-            CalculationView()
+//            CalculationView()
         }
     }
 }
